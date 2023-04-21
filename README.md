@@ -1,2 +1,2 @@
 # hello-world
-just siesta for now
+just a siesta for now
