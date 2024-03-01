@@ -44,3 +44,6 @@ The goal of the project is to understand which applications attract the users mo
 
 This data representation helps us determine key features of most popular apps, and, in addition, which of those are the most profitable ones.
 
+
+### Practice Optimizing DataFrames and Processing in Chunks  
+Reading the data in chunks and optimizing its memory footprint.
