@@ -4,9 +4,15 @@
 ### Analyzing CIA Factbook Data Using SQL  
 Using aggregate functions for quick overview of some data in the "facts" table about the countries of the world from the CIA Factbook database.
 
+### Analyzing Wikipedia Pages 
+Implementation of a simplified version of the grep command-line utility to search for data in 54 megabytes worth of articles.  
+Main goals:
+* Search for all occurrences of a string in all of the files.
+* Provide a case-insensitive option to the search.
+* Refine the result by providing the specific locations of the files.
 
 ### Answering Business Questions using SQL  
-We need to answer a number of questions.
+We have a number of questions to answer.
 
 * Which of the following albums we should purchase for our store, namely, for an audience from the USA:
 
@@ -37,13 +43,13 @@ The goal is to determine if Ask HN or Show HN receive more comments on average a
 For realization we will use sample (20 000 out of 300 000 rows) from Hacker News data set - sample is made by omitting posts without comments, and then choosing rows randomly from the rest of the data.
 
 
-### The most profitable free apps on App Store and Google Play  
+### Practice Optimizing DataFrames and Processing in Chunks  
+Reading the data in chunks and optimizing its memory footprint.
+
+
+### Which free apps are the most profitable on App Store and Google Play  
 This project is about analysing applications free to download and install, where main source of revenue will be from in-apps ads. The thing is that the number of users on free apps is a key indicator of ad revenue of these apps.
 
 The goal of the project is to understand which applications attract the users more in order to create a vision of those types of apps and, accordingly, vision of target audience of those apps.
 
 This data representation helps us determine key features of most popular apps, and, in addition, which of those are the most profitable ones.
-
-
-### Practice Optimizing DataFrames and Processing in Chunks  
-Reading the data in chunks and optimizing its memory footprint.
